@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Delicias</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        nav {
+            background-color: #8B4513;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #FFD700;
+        }
+
+        section {
+            min-height: 100vh;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .imagen {
+            width: 400px;
+            height: 200px;
+            border: 2px dashed #999;
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+        }
+
+        #inicio {
+            background-color: #f4f4f4;
+        }
+
+        #desayunos {
+            background-color: #fff0d9;
+        }
+
+        #bebidas {
+            background-color: #d9f7ff;
+        }
+
+        #postres {
+            background-color: #ffe4e1;
+        }
+
+        #pastas {
+            background-color: #f0e68c;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#desayunos">Desayunos</a></li>
+            <li><a href="#bebidas">Bebidas</a></li>
+            <li><a href="#postres">Postres</a></li>
+            <li><a href="#pastas">Pastas</a></li>
+        </ul>
+    </nav>
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>Bienvenido a nuestro restaurante </p>
+        <div class="imagen">
+            <img src="imagenes/icono.jpg" alt="Inicio" width="400px" height="200px" >
+        </div>
+    </section>
+
+    <section id="desayunos">
+        <h2>Desayunos</h2>
+        <p>Los mejores desayunos para comenzar el dia.</p>
+        <div class="imagen">
+            <img src="imagenes/desayunos(1).jpg" alt="Desayuno" width="400px" height="200px" >
+        </div>
+    </section>
+
+    <section id="bebidas">
+        <h2>Bebidas</h2>
+        <p>Refrescantes bebidas para todos los gustos.</p>
+        <div class="imagen">
+            <img src="imagenes/bebidas.jpg" alt="Bebida" width="300px" height="200px">
+        </div>
+    </section>
+
+    <section id="postres">
+        <h2>Postres</h2>
+        <p>Deliciosos postres preparados al momento.</p>
+        <div class="imagen">
+            <img src="imagenes/postres.jpg" alt="Postre" width="250px" height="250px">
+        </div>
+    </section>
+
+    <section id="pastas">
+        <h2>Pastas</h2>
+        <p>Variedad de pastas con recetas tradicionales.</p>
+        <div class="imagen">
+            <img src="imagenes/pastas(1).jpg" alt="Pasta" width="400px" height="300px">
+        </div>
+    </section>
+</body>
+</html>
